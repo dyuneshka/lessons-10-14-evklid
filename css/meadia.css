@@ -1,0 +1,990 @@
+/*media*/
+
+@media (max-width: 1474px){ 
+
+  .about__left {
+    min-width: 60%;
+  }
+
+  .about__right {
+    width: 40%;
+  }
+
+  .about__right-card {
+  flex-direction: column;
+  }
+
+  .about__img {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+}
+
+
+
+@media (max-width: 1154px){
+  
+  .header__nav{
+    margin-left: 50px;
+  }
+
+  .header__btn-search{
+    margin-left: 55px;
+  }
+
+  .footer__content-left{
+    margin-right: auto;
+  }
+
+  .footer__content-center{
+    margin-right: 0;
+  }
+
+  .footer__content-right{
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+
+    /*header*/
+
+    .header{
+      max-width: 1024px;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  
+    .header__content{
+      position: relative;
+      margin: 0 auto;
+      height: 100%;
+      display: flex;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .header__logo{
+      width: 150px;
+      height: 48px;
+    }
+
+    .header__logo.logo-active{
+      margin-right: 285px;
+    }
+
+    .header__search-open.search--active{
+      right: 1px;   
+    }
+  
+    .header__burger{
+      display: block;
+  
+    }
+
+    .header__burger-menu{
+      display: block;
+    }
+
+    .header__burger-menu.is-active{
+      transform: none;
+    }
+
+    .header__menu-item:not(:last-child){
+      margin-bottom: 60px;
+    }
+  
+    .header__nav{
+      display: none;
+    }
+  
+    .header__btn-search{
+      margin-left: 0;
+    }
+  
+    .container {
+      padding: 0 50px;
+    } 
+  
+    /*hero*/
+  
+    .section-hero{
+      margin-bottom: 40px;
+    }
+  
+  
+    .swiper{
+      width: 100%;
+      max-width: 924px;
+      height: 668px;
+    }
+  
+    .hero__img1{
+      width: 100%;
+      max-width: 924px;
+      height: 668px;
+      background-image: url("../img/low-angle-photo-of-balconies-2462015\ 1\ \(1\).jpg");
+    }
+  
+    .hero__img2{
+      width: 100%;
+      max-width: 924px;
+      height: 668px;
+      background-image: url("../img/hero-pic-1024-2.jpg");
+    }
+  
+
+    .hero__img3{
+      width: 100%;
+      max-width: 924px;
+      height: 668px;
+      background-image: url("../img/hero-pic-1024-3.jpg");
+    }
+  
+
+    .hero__conten-text{
+      margin-left: 77px;
+      margin-top: 160px;
+    }
+  
+    .section-hero__title{
+      font-size: 60px;
+      font-weight: 800;
+      line-height: 73px;
+      text-align: left;
+    }
+  
+    .section-hero__descr{
+      width: 660px;
+      height: 48px;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+  
+    }
+  
+    .section-hero__btn{
+      margin-top: 60px;
+    }
+  
+    /*about*/
+
+    .about__content{
+      flex-direction: column;
+      gap: 32px;
+    }
+  
+    .about__left{
+      width: 100%;
+      max-width: 924px;
+      background-image: url("../img/Rectangle\ 2.jpg");
+    }
+  
+    .about__descr{
+      width: 100%;
+      max-width: 924px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+      margin-bottom: 60px;
+    }
+  
+    .about__right{
+      width: 100%;
+    }
+
+    .about__right-card{
+      width: 100%;
+      max-width: 924px;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    /*stages*/
+    .stages__descr{
+      max-width: 437px;
+      width: 100%;
+    }
+  
+    .stages__content-right{
+      width: 437px;
+      height: 689px;
+      border-radius: 32px;
+      margin: 0;
+    }
+  
+    .stages__content-right1{
+      background-image: url("../img/Rectangle\ 18\ \(1\).jpg");
+    }
+
+    .stages__content-right2{
+      background-image: url("../img/how-pic-1024-2.jpg");
+    }
+  
+    .stages__content-right3{
+      background-image: url("../img/how-pic-1024-3.jpg");
+    }
+
+    .stages__content-right4{
+      background-image: url("../img/how-pic-1024-4.jpg");
+    }
+
+    /*question*/
+  
+    .question__title{
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+      height: 100%;
+    }
+  
+    .question__title4{
+      width: 756px;
+      height: 100%;
+      line-height: 32px;
+    }
+    /*footer*/
+  
+    .footer{
+      width: 100%;
+    }
+  
+    .footer__content{
+      padding: 50px 0;
+      
+    }
+  
+    .footer__content-left{
+      margin-right: 132px;
+    }
+  
+  
+    .footer__content-center{
+      width: 100%;
+      max-width: 541px;
+      height: 494px;
+    }
+  
+    .footer__right-descr{
+      display: none;
+    }
+  }
+
+
+   @media (max-width: 878px){
+
+    .section-hero__title{
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 61px;
+    }
+
+    .section-hero__descr{
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+      width: 588px;
+    }
+
+    .section-hero__btn{
+      margin-bottom: 30px;
+    }
+
+    .footer__content{
+      flex-direction: column-reverse;
+      height: 100%;    
+    }
+
+    .footer__logo{
+      margin-top: 50px;
+    }
+
+    .footer__icon{
+      margin-bottom: 50px;
+      margin-top: 16px;
+    }
+  
+    .footer__nav-list{
+      display: none;
+    }
+  
+   }
+  
+  @media (max-width: 768px){
+  
+    .header{
+      max-width: 768px;
+      width: 100%;
+    }
+
+    .header__logo.logo-active{
+      margin-left: 120px;
+    }
+   
+    /*hero*/
+  
+    .swiper{
+      width: 100%;
+      max-width: 668px;
+      max-height: 662px; 
+    }
+  
+    .hero__img1{
+      width: 100%;
+      max-width: 668px;
+      background-image: url("../img/low-angle-photo-of-balconies-2462015\ 1\ \(2\).jpg");
+    }
+
+    .hero__img2{
+      width: 100%;
+      max-width: 668px;
+      background-image: url("../img/hero-pic-768-2.jpg");
+    }
+
+    .hero__img3{
+      width: 100%;
+      max-width: 668px;
+      background-image: url("../img/hero-pic-768-3.jpg");
+    }
+  
+    .hero__conten-text{
+      margin-left: 40px;
+    }
+  
+    .section-hero__title{
+      width: 100%;
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 61px;
+    }
+  
+    .section-hero__descr{
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+      width: 100%;
+      max-width: 588px;
+    }
+  
+    /*about*/
+  
+    .about__descr{
+      width: 100%;
+      max-width: 668px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: left;    
+      margin-bottom: 60px;
+    }
+  
+    .about__left{
+      width: 100%;
+      max-width: 668px;
+      height: 650px;
+      background-image: url("../img/Rectangle\ 2\ \(1\).jpg");
+    }
+  
+    .about__left-content{
+      width: 100%;
+      max-width: 668px;
+      height: 196px;
+      border-radius: 16px;
+    }
+  
+    .about__left-descr{
+      width: 366px;
+      height: 128px;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  
+    .about__right-card{
+      width: 100%;
+      max-width: 668px;
+      height: 235px;
+      padding: 0 48px;
+    }
+  
+    .about__img{
+      width: 114px;
+      height: 99px;
+      overflow: hidden;
+    }
+  
+    /*stages*/
+  
+    .stages{
+      height: 979px
+    }
+  
+    .stages__list{
+      justify-content: space-between;
+      width: 100%;
+      max-width: 668px;
+  
+    }
+  
+    .stages__content{
+      flex-direction: column-reverse;
+    }
+  
+    .stages__descr{
+      width: 100%;
+      max-width: 667px;
+      }
+  
+    .stages__content-right{
+      width: 100%;
+      max-width: 668px;
+      max-height: 284px;
+      margin-bottom: 38px;
+    }
+  
+    .stages__content-right1{
+      background-image: url("../img/Rectangle\ 18\ \(2\).jpg");
+    }
+
+    .stages__content-right2{
+      background-image: url("../img/how-pic-768-2.jpg");
+    }
+  
+    .stages__content-right3{
+      background-image: url("../img/hero-pic-768-3.jpg");
+    }
+
+    .stages__content-right4{
+      background-image: url("../img/how-pic-768-4.jpg");
+    }
+  
+    /*question*/
+  
+    .question{
+      margin-top: 50px;
+    }
+  
+    /*footer*/
+    
+    .footer{
+      width: 100%;
+      max-width: 768px;
+    }
+  
+    .footer__content-center{
+      width: 100%;
+      max-width: 541px;
+      height: 494px;
+    }
+  }
+
+  @media (max-width: 665px) {
+
+    .title{
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 40px;
+    }
+
+    .section-hero,
+    .about,
+    .stages,
+    .question {
+      margin-bottom: 60px;
+    }
+
+    
+    .container {
+      padding: 0 25px;
+    }
+
+    /*header*/
+
+    .header__content{
+      padding: 0 25px;
+    }
+
+    .header__logo.logo-active{
+      display: none;
+    }
+   
+    .header__burger-menu{
+      max-width: 360px;
+      width: 100%;
+      height: 100vh;
+      padding-left: 0;  
+    }
+
+    .header__burger-closer{
+      width: 23px;
+      height: 23px;
+      margin-bottom: 93px;
+      padding-left: 25px;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .header__menu-list{
+      padding-left: 25px;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 20px;
+      text-align: left;      
+      color: #333;
+    }
+
+    /*hero*/
+
+    .swiper{
+      width: 100%;
+      max-width: 668px;
+      height: 100%;
+      height: 308px;
+    }
+    
+    .swiper-wrapper{
+      min-height: 308px;
+      width: 100%;
+      max-width: 665px;
+      height: 308px;
+      background-repeat: no-repeat;
+      
+    }
+
+    .hero__img1{
+      background-image: url("../img/low-angle-photo-of-balconies-2462015\ 1\ \(3\).jpg");
+    }
+
+    .hero__img2{
+      background-image: url("../img/hero-pic-320-2.jpg");
+    }
+
+    .hero__img3{
+      background-image: url("../img/hero-pic-320-3.jpg");
+    }
+
+    .swiper .swiper-pagination {
+      margin-bottom: 0;
+    }
+
+    .swiper .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+    }
+
+    .hero__conten-text{
+      margin: 0;
+      margin-top: 60px;
+      margin-left: 20px;
+    }
+  
+
+    .section-hero__title{
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 24px;
+      text-align: left;
+      
+    }
+  
+    .section-hero__descr{
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20px;
+      text-align: left;
+    }
+  
+    .section-hero__btn{
+      margin-top: 32px;
+      margin-bottom: 59px;
+      width:162px;
+      max-height: 41px;
+      padding: 13px 28px;
+      border-radius: 8px; 
+      font-weight: 700;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 15px;
+    }
+  
+
+    /*about*/
+
+    .about__left{
+      display: contents;
+    }
+
+    .about__left-content{
+      display: block;
+      height: 100%;
+      margin-bottom: 32px;
+      padding: 0;
+      background-color: inherit;
+      color: #333;  
+    }
+
+    .about__img-mobile{
+      display: block;
+      width: 100%;
+      margin-bottom: 8px;
+    }
+
+    .about__left-descr {
+      max-width: 290px;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 11px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+      color: #333;
+    }
+
+    .about__left-btn{
+      min-width: 162px;
+      min-height: 40px;
+      font-size: 12px;
+      line-height: 14.63px;
+      border: 2px solid;
+      color: var(--color-defolt);  
+    }
+
+    .about__right-card{
+      flex-direction: column;
+      padding: 0;
+      align-items: flex-start;
+      outline: none;  
+      border: none;
+    }
+
+    .about__img {
+      margin-right: 0;
+      margin-bottom: 13px;
+      min-width: 64px;
+      min-height: 49px;
+      height: 100%;
+    }
+  
+    .about__img-top{
+      background-image: url("../img/Frame\ 39.svg");
+    }
+
+    .about__img-bottom{
+      background-image: url("../img/Frame\ 38.svg");
+    }
+
+    .about__right-title {
+      margin-bottom: 4px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21.92px;
+    }
+  
+    .about__right-descr {
+      font-size: 14px;
+      line-height: 28px;
+    }
+  
+
+    /*stages*/
+
+    .stages{
+      margin-top: 0;
+      margin-bottom: -45px;
+      height: auto;
+    }
+
+    .stages__item:not(:last-child){
+      margin-right: 44px;
+    }
+
+    .stages__item-btn {
+      font-size: 14px;
+      line-height: 17.7px;
+    }
+  
+    .stages__list {
+      margin-bottom: 13px;
+    }
+  
+
+    .stages__btn-left{
+      margin-bottom: 100px;
+    }
+
+    .stages__left-button1{
+      padding: 12px 44px;
+      margin-right: 10px;
+      width: 162px;
+      height: 40px;
+      font-size: 12px;
+      line-height: 14.63px;  
+    }
+
+    .stages__left-button2{
+      padding: 12px 32px;
+      width: 118px;
+      height: 40px;
+      font-size: 12px;
+      line-height: 14.63px  
+    }
+
+    /*question*/
+
+    .question{
+      margin-top: 0;
+    }
+    
+    .question__title{
+      font-size: 18px;
+      width: 320px;
+      height: 100%;
+      font-weight: 500;
+      line-height: 34px;
+    }
+    
+    /*footer*/
+
+    .footer__content{
+      padding-bottom: 0;
+      align-items: center;
+    }
+
+    .footer__form{
+      align-items: center;
+    }
+
+    .footer__content-left{
+      margin-right: 0;
+    }
+
+    .footer__logo{
+      margin-top: 16px;
+    }
+
+    .footer__icon{
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .footer__content-center {
+      min-width: 290px;
+      height: 100%;
+      margin-bottom: 16px;
+      padding-bottom: 22px;
+      border-bottom: 1px solid #595959;
+    }
+  
+    .footer__form-btn {
+      margin: 0;
+      margin-bottom: 18px;
+      padding: 13px 28px;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 14.63px;
+      width: 180px;
+      height: 39px; 
+      text-align: center;  
+  }
+  
+}
+
+@media (max-width: 320px){
+
+  .title{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+  }
+ 
+  .container{
+    max-width: 290px;
+    width: 100%;
+    padding: 0;
+  }
+
+  /*header*/
+  
+  .header__content{
+    padding: 0;
+    justify-content: space-around;
+  }
+
+  .header__logo{
+    width: 110px;
+    height: 35px;
+  }
+
+  .header__burger-menu{
+    max-width: 320px;
+    width: 100%;
+    height: 100vh;
+    padding-left: 0;  
+  }
+
+  .header__burger-closer{
+    width: 23px;
+    height: 23px;
+    margin-bottom: 93px;
+    padding-left: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .header__menu-list{
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;      
+    color: #333;
+  }
+
+  .header__search-open.search--active{
+    width: 100%;
+    max-width: 320px;
+    height: 69px;
+  }
+
+  .header__input-search{
+    width: 222px;
+    height: 27px;
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+
+  }
+
+  /*hero*/
+
+
+  .swiper{
+    width: 100%;
+    max-width: 290px;
+    height: 308px;
+  }
+
+  .swiper-wrapper{
+    width: 100%;
+    max-width: 290px;
+    height: 308px;
+    background-repeat: no-repeat;
+  }
+
+  .hero__img1{
+    overflow: hidden;
+    background-image: url("../img/low-angle-photo-of-balconies-2462015\ 1\ \(4\).jpg");
+  }
+
+  .hero__img2{
+    overflow: hidden;
+    background-image: url("../img/hero-pic-320-2.jpg");
+  }
+
+  .hero__img3{
+    overflow: hidden;
+    background-image: url("../img/hero-pic-320-3.jpg");
+  }
+
+  .hero__conten-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .section-hero__title{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: center;
+    
+  }
+
+  .section-hero__descr{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .section-hero__btn{
+    margin-top: 32px;
+    margin-bottom: 59px;
+    width:162px;
+    max-height: 41px;
+    padding: 13px 28px;
+    border-radius: 8px; 
+    font-weight: 700;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center; 
+  }
+
+
+  /*about*/
+
+  .about__descr{
+    max-width: 290px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 14px;
+  }
+
+  /*stages*/
+
+  .stages__item{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+
+  }
+
+  .stages__content-right{
+    max-width: 290px;
+    height: 160px;
+  }
+
+  .stages__content-right1{
+    background-image: url("../img/Rectangle\ 18\ \(3\).jpg");
+  }
+
+  .stages__content-right2{
+    background-image: url("../img/how-pic-320-2.jpg");
+  }
+
+  .stages__content-right3{
+    background-image: url("../img/how-pic-320-3.jpg");
+  }
+
+  .stages__content-right4{
+    background-image: url("../img/how-pic-320-4.jpg");
+  }
+
+   /*question*/
+  
+  .question__title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;    
+  }
+
+  .question__svg{
+    width: 30px;
+    height: 30px;
+  }
+}
